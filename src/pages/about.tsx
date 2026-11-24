@@ -19,9 +19,9 @@ function About() {
         kicker="About & team"
         lines={about.lines}
         body={`${brand.tagline}. A woman-owned beauty bar in Sunningdale, Cape Town.`}
-        image="hero-salon.webp"
-        alt={home.heroAlt[1]}
-        position="50% 62%"
+        image="hero-lounge.webp"
+        alt={home.heroAlt[0]}
+        position="50% 55%"
       />
 
       <div ref={ref}>
@@ -45,8 +45,8 @@ function About() {
               </p>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <img data-reveal src={media('about-studio.webp')} alt="A pedicure in progress in the studio" loading="lazy" className="row-span-2 aspect-[3/5] h-full w-full object-cover" />
-              <img data-reveal style={d(120)} src={media('about-sign.webp')} alt="Nails held up in front of the La Vie Maison sign" loading="lazy" className="aspect-square w-full object-cover" />
+              <img data-reveal src={media('hero-reception.webp')} alt="The reception counter and gel polish wall" loading="lazy" className="row-span-2 aspect-[3/5] h-full w-full object-cover" />
+              <img data-reveal style={d(120)} src={media('about-lash-treatment.webp')} alt="A lash treatment in progress in the treatment room" loading="lazy" className="aspect-square w-full object-cover" />
               <img data-reveal style={d(200)} src={media('about-care.webp')} alt="A nail technician filing a client's toenails during a pedicure" loading="lazy" className="aspect-square w-full object-cover" />
             </div>
           </div>
@@ -85,6 +85,14 @@ function About() {
               <p data-reveal style={d(160)} className="prose-lv mt-8 max-w-[440px] text-ink/80">
                 A small team that clients describe as warm, gentle and hospitable — and who genuinely love the detail work.
               </p>
+              <img
+                data-reveal
+                style={d(220)}
+                src={media('about-team.webp')}
+                alt="A member of the La Vie Maison team in the pedicure lounge"
+                loading="lazy"
+                className="mt-10 aspect-[4/5] w-full max-w-[440px] object-cover"
+              />
             </div>
             <ul className="grid gap-3 sm:grid-cols-2">
               {about.team.map((m, k) => (
@@ -104,7 +112,7 @@ function About() {
         {/* The studio */}
         <section aria-labelledby="studio" className="bg-paper px-5 py-28 md:px-14 md:py-36">
           <div className="mx-auto grid max-w-[1680px] items-end gap-12 lg:grid-cols-[1.3fr_1fr]">
-            <img data-reveal src={media('hero-salon.webp')} alt={home.heroAlt[1]} loading="lazy" className="aspect-[4/3] w-full object-cover object-[50%_62%]" />
+            <img data-reveal src={media('hero-salon.webp')} alt="The lounge: a cream sofa, a pink chair and a brass-and-white counter" loading="lazy" className="aspect-[4/3] w-full object-cover object-[50%_62%]" />
             <div>
               <h2 id="studio" data-reveal className="display text-[clamp(40px,4.4vw,76px)]">
                 <span className="block">The</span>

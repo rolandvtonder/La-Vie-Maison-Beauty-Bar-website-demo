@@ -47,8 +47,8 @@ function Home() {
             <div className="grid grid-cols-[1.4fr_1fr] items-end gap-3">
               <img
                 data-reveal
-                src={media('about-studio.webp')}
-                alt="A pedicure in progress in the La Vie Maison studio"
+                src={media('hero-reception.webp')}
+                alt="The reception: a fluted white-and-gold counter beside a wall of gel polish colours"
                 loading="lazy"
                 className="aspect-[3/5] w-full object-cover"
               />
@@ -56,8 +56,8 @@ function Home() {
                 <img
                   data-reveal
                   style={{'--d': '120ms'} as CSSProperties}
-                  src={media('gallery/nails-45.webp')}
-                  alt="Green and gold French nails"
+                  src={media('gallery/nails-emerald.webp')}
+                  alt="Nude nails with emerald-green and gold French tips"
                   loading="lazy"
                   className="aspect-[4/5] w-full object-cover"
                 />

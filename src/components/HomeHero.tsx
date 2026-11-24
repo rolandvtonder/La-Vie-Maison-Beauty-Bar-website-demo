@@ -6,9 +6,9 @@ import {onFrame} from '../lib/scroll';
 import {Headline} from './Headline';
 
 const SLIDES = [
+  {src: 'hero-lounge.webp', pos: '50% 55%'},
   {src: 'hero-glam.webp', pos: '50% 22%'},
-  {src: 'hero-salon.webp', pos: '50% 60%'},
-  {src: 'hero-nails.webp', pos: '50% 55%'},
+  {src: 'hero-reception.webp', pos: '50% 45%'},
   {src: 'hero-lashes.webp', pos: '50% 30%'},
 ];
 const HOLD = 6500;

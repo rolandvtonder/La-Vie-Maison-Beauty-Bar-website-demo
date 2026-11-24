@@ -66,9 +66,9 @@ export const home = {
   ] as Line[],
   body: 'Nails, lashes, brows, pedicures, glam and wellness — in a calm, comfortable studio in Sunningdale, Cape Town.',
   heroAlt: [
+    'The pedicure lounge: two cream chairs with white rose bouquets, white basins and gold accents',
     'A client relaxing in the La Vie Maison studio after a soft-glam makeup session',
-    'The La Vie Maison studio: a cream sofa, a pink chair and a brass-and-white reception counter',
-    'Freshly done pink and white nails holding a glass of orange juice',
+    'The reception: a fluted white-and-gold counter with the La Vie Maison sign, beside a wall of gel polish colours',
     'A client with eyes closed showing a full set of soft, wispy lashes',
   ],
   statement: {
@@ -95,16 +95,16 @@ export const signatures: Signature[] = [
   {
     id: 'nails',
     name: ['Nails &', 'powder dip'],
-    image: 'panel-nails.webp',
-    alt: 'Long nude nails with bright neon stripe nail art',
+    image: 'panel-nails-emerald.webp',
+    alt: 'Nude nails with emerald-green and gold French tips',
     specs: [['Speciality', 'Powder dip'], ['From', 'R225']],
     tint: '#b9967a',
   },
   {
     id: 'lashes',
     name: ['Lashes &', 'brows'],
-    image: 'panel-lashes.webp',
-    alt: 'Before and after of a brow shape: the lower eye shows a sharper, fuller brow',
+    image: 'panel-lashes-wispy.webp',
+    alt: 'Close-up of a soft, wispy lash extension set',
     specs: [['Cluster sets', 'From R160'], ['Brow lamination', 'R200']],
     tint: '#4a3a2e',
   },
@@ -119,8 +119,8 @@ export const signatures: Signature[] = [
   {
     id: 'pedicures',
     name: ['Pedicures &', 'spa'],
-    image: 'panel-spa.webp',
-    alt: 'A client lying face down, wrapped in a towel, during a neck and shoulder massage',
+    image: 'hero-lounge.webp',
+    alt: 'The pedicure lounge: two cream chairs, white basins and gold accents',
     specs: [['Royal pedicure', 'R270'], ['Massage', 'From R96']],
     tint: '#6b5546',
   },
@@ -142,8 +142,8 @@ export const categories: Category[] = [
     id: 'nails',
     title: ['Nails &', 'enhancements'],
     intro: 'Powder dip is our speciality — strong, healthy and long-wearing. We also do acrylic, polygel, soft gel and Bio Sculpture, in any length or finish.',
-    image: 'panel-nails.webp',
-    alt: 'Long nude nails with bright neon stripe nail art',
+    image: 'panel-nails-emerald.webp',
+    alt: 'Nude nails with emerald-green and gold French tips',
     groups: [
       {
         items: [
@@ -213,8 +213,8 @@ export const categories: Category[] = [
     id: 'pedicures',
     title: ['Pedicures', '& feet'],
     intro: 'Unhurried foot care with soaks, callus removal, heel treatments and a proper foot massage.',
-    image: 'gallery/feet-03.webp',
-    alt: 'Freshly pedicured feet with butter-yellow gel polish',
+    image: 'gallery/feet-french.webp',
+    alt: 'A classic white French pedicure',
     groups: [
       {
         items: [
@@ -239,8 +239,8 @@ export const categories: Category[] = [
     id: 'lashes',
     title: ['Lashes', '& lash care'],
     intro: 'Cluster sets for an easy, soft look, or individual classic, hybrid and volume extensions.',
-    image: 'gallery/lashes-02.webp',
-    alt: 'Close-up of a wispy lash set',
+    image: 'gallery/lashes-wispy.webp',
+    alt: 'Close-up of a soft, wispy lash extension set',
     groups: [
       {
         name: 'Individual lashes',

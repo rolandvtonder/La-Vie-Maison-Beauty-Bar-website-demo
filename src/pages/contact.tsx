@@ -24,9 +24,9 @@ function Contact() {
         kicker="Book & visit"
         lines={[{t: 'Book'}, {t: '& visit.', i: true}]}
         body={`${brand.address.join(', ')}. Open every day, 9:00 – 18:00, with parking on site.`}
-        image="hero-salon.webp"
-        alt="The La Vie Maison studio: a cream sofa, a pink chair and a brass-and-white reception counter"
-        position="50% 62%"
+        image="hero-reception.webp"
+        alt="The reception: a fluted white-and-gold counter with the La Vie Maison sign, beside a wall of gel polish colours"
+        position="50% 45%"
       />
 
       <div ref={ref}>

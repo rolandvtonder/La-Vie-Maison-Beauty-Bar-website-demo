@@ -21,6 +21,13 @@ export const galleryAlt: Record<GalleryCat, string> = {
 };
 
 export const shots: Shot[] = [
+  {src: 'nails-emerald.webp', cat: 'nails', w: 800, h: 1067},
+  {src: 'studio-lounge.webp', cat: 'studio', w: 800, h: 877},
+  {src: 'lashes-wispy.webp', cat: 'lashes', w: 800, h: 1078},
+  {src: 'feet-french.webp', cat: 'feet', w: 800, h: 1067},
+  {src: 'studio-reception.webp', cat: 'studio', w: 800, h: 1067},
+  {src: 'lashes-treatment.webp', cat: 'lashes', w: 800, h: 800},
+  {src: 'studio-team.webp', cat: 'studio', w: 800, h: 1067},
   {src: 'nails-01.webp', cat: 'nails', w: 640, h: 853},
   {src: 'nails-02.webp', cat: 'nails', w: 800, h: 1055},
   {src: 'nails-03.webp', cat: 'nails', w: 800, h: 1055},
@@ -65,7 +72,6 @@ export const shots: Shot[] = [
   {src: 'nails-42.webp', cat: 'nails', w: 800, h: 1055},
   {src: 'nails-43.webp', cat: 'nails', w: 800, h: 1055},
   {src: 'nails-44.webp', cat: 'nails', w: 800, h: 1055},
-  {src: 'nails-45.webp', cat: 'nails', w: 640, h: 853},
   {src: 'nails-46.webp', cat: 'nails', w: 720, h: 960},
   {src: 'feet-01.webp', cat: 'feet', w: 800, h: 1055},
   {src: 'feet-02.webp', cat: 'feet', w: 800, h: 1055},
