@@ -1,0 +1,5 @@
+node_modules
+dist
+.claude
+# Raw Instagram page saves used to extract the photos (≈180 MB)
+media/*.mhtml
