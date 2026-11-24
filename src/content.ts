@@ -372,8 +372,8 @@ export const about = {
     {t: 'Your beauty, our passion', d: 'We love what we do. Whether it’s a quick fill or full glam, you should leave feeling confident and like yourself.'},
   ],
   team: [
-    {name: 'Margo', role: 'Founder', note: 'The heart of the house — creating a space where every client feels welcome.'},
-    {name: 'Shantell', role: 'Nail technician · 4.8★ on Fresha', note: 'Known for her gentle hands and attention to detail on nails, manicures and pedicures.'},
+    {name: 'Margo', role: 'Founder', photo: undefined as string | undefined, note: 'The heart of the house — creating a space where every client feels welcome.'},
+    {name: 'Shantell', role: 'Nail technician · 4.8★ on Fresha', photo: 'about-team.webp', note: 'Known for her gentle hands and attention to detail on nails, manicures and pedicures.'},
   ],
 };
 

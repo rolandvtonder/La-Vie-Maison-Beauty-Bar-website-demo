@@ -85,21 +85,31 @@ function About() {
               <p data-reveal style={d(160)} className="prose-lv mt-8 max-w-[440px] text-ink/80">
                 A small team that clients describe as warm, gentle and hospitable — and who genuinely love the detail work.
               </p>
-              <img
-                data-reveal
-                style={d(220)}
-                src={media('about-team.webp')}
-                alt="A member of the La Vie Maison team in the pedicure lounge"
-                loading="lazy"
-                className="mt-10 aspect-[4/5] w-full max-w-[440px] object-cover"
-              />
+              <figure data-reveal style={d(220)} className="mt-10 max-w-[440px]">
+                <img
+                  src={media('about-team.webp')}
+                  alt="Shantell, nail technician, sitting in the pedicure lounge"
+                  loading="lazy"
+                  className="aspect-[4/5] w-full object-cover"
+                />
+                <figcaption className="caps mt-3 text-ink/60">Shantell in the pedicure lounge</figcaption>
+              </figure>
             </div>
             <ul className="grid gap-3 sm:grid-cols-2">
               {about.team.map((m, k) => (
                 <li key={m.name} data-reveal style={d(k * 110)} className="flex flex-col bg-paper p-8 md:p-10">
-                  <span aria-hidden className="flex size-20 items-center justify-center rounded-full border border-gold font-serif text-[40px] text-gold-deep italic">
-                    {m.name[0]}
-                  </span>
+                  {m.photo ? (
+                    <img
+                      src={media(m.photo)}
+                      alt=""
+                      loading="lazy"
+                      className="size-20 rounded-full border border-gold object-cover object-[50%_18%]"
+                    />
+                  ) : (
+                    <span aria-hidden className="flex size-20 items-center justify-center rounded-full border border-gold font-serif text-[40px] text-gold-deep italic">
+                      {m.name[0]}
+                    </span>
+                  )}
                   <h3 className="display mt-8 text-[44px]">{m.name}</h3>
                   <p className="caps mt-2 text-gold-deep">{m.role}</p>
                   <p className="mt-4 text-[16px] leading-relaxed text-ink/75">{m.note}</p>
